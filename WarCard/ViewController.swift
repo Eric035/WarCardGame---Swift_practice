@@ -24,9 +24,23 @@ class ViewController: UIViewController {
         
     }
     
+    var playerScore = 0
+    var cpuScore = 0
+    
     @IBAction func dealTap(_ sender: Any) {
+        var num1: Int = Int.random(in: 2...14)
+        var num2: Int = Int.random(in: 2...14)
+        leftImageView.image = UIImage(named: "card" + String(num1))
+        rightImageView.image = UIImage(named: "card" + String(num2))
         
-        print("Deal tapped!")
+        if (num1 > num2){
+            playerScore += 1
+            leftScoreLabel.text = String(playerScore)
+        }
+        else if (num1 < num2){
+            cpuScore += 1
+            rightScoreLabel.text = String(cpuScore)
+        }
     }
 }
 

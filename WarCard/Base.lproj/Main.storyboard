@@ -43,10 +43,10 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="vYx-9I-pi2" userLabel="Cards SV">
                                         <rect key="frame" x="0.0" y="0.0" width="270" height="170"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card6" translatesAutoresizingMaskIntoConstraints="NO" id="i1s-zQ-Ae7">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card8" translatesAutoresizingMaskIntoConstraints="NO" id="i1s-zQ-Ae7">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="170"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card9" translatesAutoresizingMaskIntoConstraints="NO" id="1U6-VP-0wH">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card10" translatesAutoresizingMaskIntoConstraints="NO" id="1U6-VP-0wH">
                                                 <rect key="frame" x="150" y="0.0" width="120" height="170"/>
                                             </imageView>
                                         </subviews>
@@ -129,8 +129,8 @@
     </scenes>
     <resources>
         <image name="Background" width="414" height="896"/>
-        <image name="card6" width="120" height="170"/>
-        <image name="card9" width="120" height="170"/>
+        <image name="card10" width="120" height="170"/>
+        <image name="card8" width="120" height="170"/>
         <image name="dealbutton" width="82" height="31"/>
         <image name="logo" width="122" height="67"/>
     </resources>
